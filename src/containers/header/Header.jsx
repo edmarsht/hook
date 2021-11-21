@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <div className="header">
-      <h1>Here my header</h1>
+      Hook
     </div>
   );
 }

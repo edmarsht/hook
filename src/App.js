@@ -1,15 +1,16 @@
 import './App.css';
-import Header from "./Header.js"
+import { Article, Brand, Cta, Navbar } from './components'
+import { Header } from './containers'
 
 function App() {
   return ( 
-    <div className="App"> 
-    <Header />  
-    <div className="app__title">
-      <h1>Here my App</h1>
+    <div className="App">
+    <div className="gradient__bg ">
+      <Navbar />
+      <Header />
     </div>
-     
-    </div>
+    <Brand />
+  </div>
   );
 }
 
