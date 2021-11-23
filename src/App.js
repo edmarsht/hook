@@ -1,5 +1,5 @@
 import './App.css';
-import { Article, Brand, Cta, Navbar } from './components'
+import { Brand, Navbar } from './components'
 import { Header } from './containers'
 
 function App() {
