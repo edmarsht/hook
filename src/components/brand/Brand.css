@@ -1,0 +1,13 @@
+.hook__brand {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3rem 3rem;
+  flex-wrap: wrap
+}
+
+@media screen and (max-width: 800px) {
+    .hook__brand img {
+        margin: 1rem 1rem;
+    }
+}
