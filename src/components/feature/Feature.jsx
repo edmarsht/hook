@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./Feature.css";
 
-
-function Feature() {
-    return (
-        <div>
-            Feature
-        </div>
-    )
+function Feature({ title, text }) {
+  return (
+    <div className="hook__features-container__feature">
+      <div className="hook__features-container__feature-title">
+        <div />
+        <h1>{title}</h1>
+      </div>
+      <div className="hook__features-container__feature-text">
+        <p>{text}</p>
+      </div>
+    </div>
+  );
 }
 
-export default Feature
+export default Feature;

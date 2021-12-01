@@ -1,0 +1,179 @@
+/* ------------- Global Section ------------ */
+.hook__whathook {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+/* ------------- First Section Feature ------------ */
+.hook__whathook-feature {
+  display: flex;
+}
+
+.hook__whathook-feature .hook__features-container__feature {
+    margin: 0;
+}
+
+.hook__whathook-feature .hook__features-container__feature-text {
+    max-width: 500px;
+}
+
+
+
+/* ------------- Heading Section ------------ */
+.hook__whathook-heading {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  justify-content: space-between;
+  margin: 8rem 0 8rem;
+}
+
+.hook__whathook-heading h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  max-width: 510px;
+  margin-right: 1rem;
+}
+
+.hook__whathook-heading p {
+  color: #ff8a71;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+/* ------------- Second Section Feature ------------ */
+.hook__whathook-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.hook__whathook-container .hook__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.hook__whathook-container .hook__features-container__feature-text {
+    margin-top: 0.5rem;
+}
+
+
+
+
+/* --------------------------------------- Responsive ------------ */
+@media screen and (max-width: 800px) {
+    .hook__whathook-heading {
+      flex-direction: column;
+    }
+    
+    .hook__whathook-heading h1 {
+      display: flex;
+      text-align: center;
+    }
+  }
+
+  /* ------------- Responsive Heading Section  ------------ */
+@media screen and (max-width: 750px) {
+    .hook__whathook-heading {
+      margin: 4rem 0 2rem;
+    }
+  }
+  
+@media screen and (max-width: 650px) {
+    .hook__whathook-feature .hook__features-container__feature {
+        flex-direction: column;
+    }
+
+    .hook__whathook-feature .hook__features-container__feature-text {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hook__whathook-heading h1 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        margin-right: 0;
+      }
+}
+
+@media screen and (max-width: 440px) {
+    .hook__whathook-container .hook__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+
+    .hook__whathook-heading h1 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+      }
+}
+
+@media screen and (max-width: 386px) {
+    .hook__whathook-heading h1 {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      .hook__whathook-heading p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+      }
+}
+
+
+
+
+
+
+
+/* ------------- Gradient Background / Global section ------------ */
+.gradient__bg-whathook {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 50% 53%,
+    rgba(0, 28, 56, 1) 0%,
+    rgba(8, 38, 83, 1) 89%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 50% 53%,
+    rgba(0, 28, 56, 1) 0%,
+    rgba(8, 38, 83, 1) 89%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 50% 53%,
+    rgba(0, 28, 56, 1) 0%,
+    rgba(8, 38, 83, 1) 89%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 50% 53%,
+    rgba(0, 28, 56, 1) 0%,
+    rgba(8, 38, 83, 1) 89%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 50% 53%,
+    rgba(0, 28, 56, 1) 0%,
+    rgba(8, 38, 83, 1) 89%
+  );
+}
