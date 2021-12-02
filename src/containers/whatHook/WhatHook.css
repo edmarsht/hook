@@ -31,7 +31,7 @@
 
 .hook__whathook-heading h1 {
   font-weight: 800;
-  font-size: 34px;
+  font-size: 36px;
   line-height: 45px;
   max-width: 510px;
   margin-right: 1rem;
@@ -40,8 +40,8 @@
 .hook__whathook-heading p {
   color: #ff8a71;
   white-space: nowrap;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 40px;
   cursor: pointer;
 }
@@ -93,6 +93,11 @@
         flex-direction: column;
     }
 
+    .hook__whathook-container .hook__features-container__feature {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
     .hook__whathook-feature .hook__features-container__feature-text {
         margin-top: 0.5rem;
     }
@@ -109,7 +114,7 @@
 
 @media screen and (max-width: 440px) {
     .hook__whathook-container .hook__features-container__feature {
-        margin: 1rem 0;
+        margin: 2rem 0;
         min-width: 100%;
     }
 

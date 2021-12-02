@@ -74,8 +74,8 @@
         line-height: 22px;
     }
 
-    .hook__features-container_feature-text p {
-        font-size: 12px;
+    .hook__features-container__feature-text p {
+        font-size: 13px;
         line-height: 20px;
     }
 

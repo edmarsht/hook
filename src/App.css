@@ -40,11 +40,11 @@ a {
 }
 
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 2rem 6rem;
 }
 
 .section__margin {
-  margin: 4rem 6rem;
+  margin: 3rem 6rem 4rem 6rem;
 }
 
 .scale-up-center {
