@@ -8,15 +8,13 @@
 
 .hook__brand-header__line-left {
   font-weight: bold;
-  color: #AD66FA;
+  color: #ad66fa;
 }
 
 .hook__brand-header__line-right {
   font-weight: bold;
-  color: #FF8A71;
+  color: #ff8a71;
 }
-
-
 
 .hook__brand-header {
   display: flex;
@@ -37,11 +35,11 @@
 }
 
 .hook__fished-image img {
-    display: none;
-    width: 100%;
-    filter: invert(64%) sepia(25%) saturate(2567%) hue-rotate(147deg) brightness(99%) contrast(108%);
+  display: none;
+  width: 100%;
+  filter: invert(64%) sepia(25%) saturate(2567%) hue-rotate(147deg)
+    brightness(99%) contrast(108%);
 }
-
 
 @media screen and (max-width: 800px) {
   .hook__brand-images img {
@@ -56,4 +54,13 @@
   .hook__brand-header__line-right {
     display: none;
   }
+}
+
+.gradient__text-othero {
+  display: block;
+  text-shadow: 0px 0px #00000000;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

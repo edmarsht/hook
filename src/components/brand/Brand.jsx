@@ -11,7 +11,7 @@ function Brand() {
     <div className="hook__brand">
       <div className="hook__brand-header">
         <div className="hook__brand-header__line-left">━━━━━━</div>
-        <div className="hook__brand-header__text gradient__text">
+        <div className="hook__brand-header__text gradient__text-othero">
           Over 80,000 paying customers trust SendGrid to send more than 90
           billion emails every month
         </div>
