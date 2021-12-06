@@ -24,8 +24,8 @@
   font-size: 24px;
   line-height: 24px;
   font-family: var(--font-family);
-  margin-top: 0.7rem;
   white-space: nowrap;
+  margin-top: 0.5rem;
 }
 
 
@@ -44,6 +44,7 @@
     font-size: 14px;
     line-height: 24px;
     color: var(--color-text);
+    margin-top: 0.5rem;
   }
 
 /* ------------- Color div  ------------ */

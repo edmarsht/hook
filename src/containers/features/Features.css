@@ -28,7 +28,7 @@
 
 .hook__features-heading p {
   color: #ff8a71;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   font-style: normal;
   line-height: 30px;
@@ -45,7 +45,7 @@
 }
 
 .hook__features-container .hook__features-container__feature {
-  margin: 1.5rem;
+  margin: 1.2rem;
 }
 
 .hook__features-container h1 {
@@ -57,7 +57,7 @@
   .hook__features-heading {
     align-items: center;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     width: 100%;
   }
 
@@ -71,5 +71,18 @@
 
   .hook__features-container .hook__features-container__feature {
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hook__features-container h1 {
+    white-space: nowrap;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .hook__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
   }
 }

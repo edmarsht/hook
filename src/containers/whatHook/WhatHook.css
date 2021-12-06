@@ -62,9 +62,9 @@
   flex-direction: column;
 }
 
-.hook__whathook-container .hook__features-container__feature-text {
+/* .hook__whathook-container .hook__features-container__feature-text {
   margin-top: 0.5rem;
-}
+} */
 
 /* --------------------------------------- Responsive ------------ */
 @media screen and (max-width: 800px) {
