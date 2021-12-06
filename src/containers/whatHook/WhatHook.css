@@ -1,15 +1,5 @@
 /* ------------- Gradient Text ------------ */
 
-.gradient__text-other {
-    display: block;
-    text-shadow: 0px 0px #00000000;
-    background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  
 /* ------------- Global Section ------------ */
 .hook__whathook {
   display: flex;
@@ -23,14 +13,12 @@
 }
 
 .hook__whathook-feature .hook__features-container__feature {
-    margin: 0;
+  margin: 0;
 }
 
 .hook__whathook-feature .hook__features-container__feature-text {
-    max-width: 500px;
+  max-width: 500px;
 }
-
-
 
 /* ------------- Heading Section ------------ */
 .hook__whathook-heading {
@@ -67,95 +55,98 @@
 }
 
 .hook__whathook-container .hook__features-container__feature {
-    flex: 1;
-    margin: 1rem;
-    min-width: 210px;
-    display: unset;
-    flex-direction: column;
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
 }
 
 .hook__whathook-container .hook__features-container__feature-text {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
-
-
-
 
 /* --------------------------------------- Responsive ------------ */
 @media screen and (max-width: 800px) {
-    .hook__whathook-heading {
-      flex-direction: column;
-    }
-    
-    .hook__whathook-heading h1 {
-      display: flex;
+  .hook__whathook-heading {
+    flex-direction: column;
+  }
+
+  .hook__whathook-heading h1 {
       text-align: center;
-    }
   }
 
-  /* ------------- Responsive Heading Section  ------------ */
+  .hook__whathook-heading p {
+    margin-top: 1rem;
+  }
+}
+
+/* ------------- Responsive Heading Section  ------------ */
 @media screen and (max-width: 750px) {
-    .hook__whathook-heading {
-      margin: 4rem 0 2rem;
-    }
+  .hook__whathook-heading {
+    margin: 4rem 0 2rem;
   }
-  
+}
+
 @media screen and (max-width: 650px) {
-    .hook__whathook-feature .hook__features-container__feature {
-        flex-direction: column;
-    }
+  .hook__whathook-feature .hook__features-container__feature {
+    flex-direction: column;
+  }
 
-    .hook__whathook-container .hook__features-container__feature {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
+  .hook__whathook-container .hook__features-container__feature {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-    .hook__whathook-feature .hook__features-container__feature-text {
-        margin-top: 0.5rem;
-    }
+  .hook__whathook-feature .hook__features-container__feature-text {
+    margin-top: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .hook__whathook-heading h1 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 40px;
-        margin-right: 0;
-      }
+  .hook__whathook-heading h1 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 440px) {
-    .hook__whathook-container .hook__features-container__feature {
-        margin: 2rem 0;
-        min-width: 100%;
-    }
+  .hook__whathook-container .hook__features-container__feature {
+    margin: 2rem 0;
+    min-width: 100%;
+  }
 
-    .hook__whathook-heading h1 {
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 32px;
-      }
+  .hook__whathook-heading h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .hook__whathook-heading p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: end;
+  }
 }
 
 @media screen and (max-width: 386px) {
-    .hook__whathook-heading h1 {
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 30px;
-      }
+  .hook__whathook-heading h1 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-      .hook__whathook-heading p {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 30px;
-      }
+  .hook__whathook-heading p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+
+
+  }
 }
-
-
-
-
-
-
 
 /* ------------- Gradient Background / Global section ------------ */
 .gradient__bg-whathook {
@@ -195,5 +186,17 @@
   );
 }
 
+/* .gradient__text-otheron {
+  display: block;
+  text-shadow: 0px 0px #00000000;
+  color: #ad66fa;
+} */
 
-
+.gradient__text-otheron {
+  display: block;
+  text-shadow: 0px 0px #00000000;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
