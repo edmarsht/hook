@@ -9,8 +9,7 @@ function Feature({ title, text }) {
         <h1>{title}</h1>
       </div>
       <div className="hook__features-container__feature-text">
-        <p>{text}</p>
-      </div>
+          <p>{text}</p></div>
     </div>
   );
 }

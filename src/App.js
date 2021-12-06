@@ -1,6 +1,6 @@
 import './App.css';
 import { Brand, Navbar } from './components'
-import { Header, WhatHook } from './containers'
+import { Features, Header, WhatHook } from './containers'
 
 function App() {
   return ( 
@@ -11,6 +11,8 @@ function App() {
     </div>
     <Brand />
     <WhatHook />
+    <Features />
+
   </div>
   );
 }

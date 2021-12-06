@@ -12,7 +12,7 @@ const Menu = () => (
       <a href="#whathook">Hook ? </a>
     </p>
     <p>
-      <a href="#home">Open</a>
+      <a href="#features">Open</a>
     </p>
     <p>
       <a href="#home">Case</a>
