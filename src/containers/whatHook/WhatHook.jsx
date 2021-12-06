@@ -15,7 +15,7 @@ function WhatHook() {
         />
       </div>
       <div className="hook__whathook-heading">
-        <h1 className="gradient__text-other">
+        <h1 className="gradient__text-otheron">
           The possibilities are beyond your imagination
         </h1>
         <a href="#"><p>Explore The Library</p></a>
