@@ -53,7 +53,14 @@
   white-space: normal;
 }
 
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$ Responsive $$$$$$$$$$$$$$$$$ */
 @media screen and (max-width: 1000px) {
+  /* ------------------------ Global section ------------ */
+  .hook__features {
+    flex-direction: column;
+  }
+
+  /* ------------------------ Heading section ------------ */
   .hook__features-heading {
     align-items: center;
     text-align: center;
@@ -65,22 +72,20 @@
     margin-bottom: 1rem;
   }
 
-  .hook__features {
-    flex-direction: column;
-  }
-
+  /* ------------------------ Container section ------------ */
   .hook__features-container .hook__features-container__feature {
     justify-content: space-around;
   }
 }
 
 @media screen and (max-width: 750px) {
+  /* ------------------------ Container section ------------ */
   .hook__features-container h1 {
     white-space: nowrap;
   }
-
 }
 @media screen and (max-width: 550px) {
+  /* ------------------------ Heading section ------------ */
   .hook__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
