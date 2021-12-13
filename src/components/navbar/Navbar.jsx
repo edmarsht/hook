@@ -12,10 +12,10 @@ const Menu = () => (
       <a href="#whathook">Hook ? </a>
     </p>
     <p>
-      <a href="#features">Open</a>
+      <a href="#features">Feature</a>
     </p>
     <p>
-      <a href="#home">Case</a>
+      <a href="#possibility">Possibility</a>
     </p>
     <p>
       <a href="#home">Library</a>

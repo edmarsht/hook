@@ -4,7 +4,6 @@ import google from "../../assets/google.png";
 import slack from "../../assets/slack.png";
 import dropbox from "../../assets/dropbox.png";
 import shopify from "../../assets/shopify.png";
-import fished from "../../assets/fished.svg";
 
 function Brand() {
   return (
@@ -22,9 +21,6 @@ function Brand() {
         <img src={slack} alt="slack" />
         <img src={dropbox} alt="dropbox" />
         <img src={shopify} alt="shopify" />
-      </div>
-      <div className="hook__fished-image">
-        <img src={fished} alt="" />
       </div>
     </div>
   );

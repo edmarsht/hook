@@ -1,19 +1,19 @@
-import './App.css';
-import { Brand, Navbar } from './components'
-import { Features, Header, WhatHook } from './containers'
+import "./App.css";
+import { Brand, Navbar } from "./components";
+import { Features, Header, WhatHook, Possibility } from "./containers";
 
 function App() {
-  return ( 
+  return (
     <div className="App">
-    <div className="gradient__bg ">
-      <Navbar />
-      <Header />
+      <div className="gradient__bg ">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatHook />
+      <Features />
+      <Possibility />
     </div>
-    <Brand />
-    <WhatHook />
-    <Features />
-
-  </div>
   );
 }
 
