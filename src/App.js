@@ -1,5 +1,5 @@
 import "./App.css";
-import { Brand, Navbar } from "./components";
+import { Brand, Navbar, Cta } from "./components";
 import { Features, Header, WhatHook, Possibility } from "./containers";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <WhatHook />
       <Features />
       <Possibility />
+      <Cta />
     </div>
   );
 }
