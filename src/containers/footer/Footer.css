@@ -1,5 +1,6 @@
 .hook__footer {
   background-color: #031b34;
+  font-family: var(--font-family);
 }
 
 .hook__container-text {
@@ -28,9 +29,9 @@
   color: #ddd;
   transition: 0.3s;
   z-index: 1;
-  font-family: inherit;
   color: white;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .hook__footer_button::before {
@@ -56,5 +57,86 @@
 }
 
 .hook__footer_button:active {
-    transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* -----------------Footer link ------------- */
+.hook__container-details {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.hook__container-details-1 {
+  margin-right: 2rem;
+}
+.hook__container-details-2 {
+  margin-right: 2rem;
+}
+.hook__container-details-3 {
+  margin-right: 2rem;
+}
+
+.hook__container-details-1 img {
+  margin-bottom: 1rem;
+}
+
+.hook__container-details h4 {
+  margin-bottom: 1rem;
+}
+.hook__container-details p {
+  margin-bottom: 1rem;
+}
+
+.hook__container-details p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.hook__container-right {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.div {
+  width: 38px;
+  height: 1px;
+  background: var(--gradient-bar);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .hook__container-details {
+    flex-direction: column;
+    text-align: center;
   }
+  .hook__container-details-1 {
+    margin-right: 0;
+    margin-bottom: 1.3rem;
+
+  }
+  .hook__container-details-2 {
+    margin-right: 0;
+    margin-bottom: 1.3rem;
+
+  }
+  .hook__container-details-3 {
+    margin-right: 0;
+    margin-bottom: 1.3rem;
+  }
+
+  .hook__container-details h4 {
+    margin-bottom: 0.5rem;
+  }
+  .hook__container-details p {
+    margin-bottom: 0.3rem;
+  }
+}
