@@ -1,6 +1,6 @@
 import "./App.css";
 import { Brand, Navbar, Cta } from "./components";
-import { Features, Header, WhatHook, Possibility } from "./containers";
+import { Features, Header, WhatHook, Possibility, Footer } from "./containers";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Features />
       <Possibility />
       <Cta />
+      <Footer />
     </div>
   );
 }
