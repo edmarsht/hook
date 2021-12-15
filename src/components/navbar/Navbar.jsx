@@ -6,19 +6,19 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
   <>
     <p>
-      <a href="#home">Home</a>
+      <a href="#home" className="effect-underline">Home</a>
     </p>
     <p>
-      <a href="#whathook">Hook ? </a>
+      <a href="#whathook" className="effect-underline">Hook ? </a>
     </p>
     <p>
-      <a href="#features">Feature</a>
+      <a href="#features" className="effect-underline">Feature</a>
     </p>
     <p>
-      <a href="#possibility">Possibility</a>
+      <a href="#possibility" className="effect-underline">Possibility</a>
     </p>
     <p>
-      <a href="#home">Library</a>
+      <a href="#home" className="effect-underline">Library</a>
     </p>
   </>
 );
